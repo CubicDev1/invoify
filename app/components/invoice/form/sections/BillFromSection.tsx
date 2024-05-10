@@ -47,6 +47,7 @@ const BillFromSection = () => {
                 name="sender.name"
                 label={_t("form.steps.fromAndTo.name")}
                 placeholder="Your name"
+                defaultValue="asaad"
             />
             <FormInput
                 name="sender.address"

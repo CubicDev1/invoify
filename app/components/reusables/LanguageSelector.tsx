@@ -39,7 +39,7 @@ const LanguageSelector = () => {
                 aria-label="Languages"
             >
                 <Badge className="position: absolute -top-4 -left-2 font-normal">
-                    BETA
+                    Coming Soon
                 </Badge>
                 <SelectValue placeholder="Select a language" />
             </SelectTrigger>
@@ -52,11 +52,7 @@ const LanguageSelector = () => {
                 <SelectGroup>
                     <SelectLabel>Languages</SelectLabel>
 
-                    {LOCALES.map((locale) => (
-                        <SelectItem key={locale.code} value={locale.code}>
-                            {locale.name}
-                        </SelectItem>
-                    ))}
+
                 </SelectGroup>
             </SelectContent>
         </Select>

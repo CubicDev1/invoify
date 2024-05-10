@@ -19,7 +19,7 @@ const DevDebug = ({}: DevDebugProps) => {
     return (
         <div className="flex border-2 border-red-500 rounded-md">
             <div className="flex flex-col">
-                <b>DEV:</b>
+                <b>Auto Fill</b>
                 Form: {formState.isDirty ? "Dirty" : "Clean"}
                 <BaseButton
                     tooltipLabel="Form Test Fill"

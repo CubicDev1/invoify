@@ -245,17 +245,9 @@ const InvoiceTemplate2 = (data: InvoiceType) => {
                     </div>
                     <div className="my-2">
                         <span className="font-semibold text-md text-gray-800">
-                            Please send the payment to this address
+                            If You Want To Send Payment Online Kinly Use This Info:
                             <p className="text-sm">
                                 Bank: {details.paymentInformation?.bankName}
-                            </p>
-                            <p className="text-sm">
-                                Account name:{" "}
-                                {details.paymentInformation?.accountName}
-                            </p>
-                            <p className="text-sm">
-                                Account no:{" "}
-                                {details.paymentInformation?.accountNumber}
                             </p>
                         </span>
                     </div>
